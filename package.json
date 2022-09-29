@@ -1,11 +1,11 @@
 {
-    "name": "gamec-web",
+    "name": "gemc-web",
     "description": "Simple NextJs 2 pages",
     "version": "0.0.0",
     "author": {
-        "name": "Noel Earvin Piamonte",
-        "email": "earvin.piamonte@gmail.com",
-        "url": "https://earvinpiamonte.com"
+        "name": "Cristian",
+        "email": "tranduykhang1999@gmail.com",
+        "url": ""
     },
     "license": "MIT",
     "repository": {

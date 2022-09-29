@@ -1,0 +1,14 @@
+.footer {
+    height: 138px;
+}
+
+.footer_title {
+    font-size: 22px;
+    font-family: 'Cardo';
+    font-weight: bold;
+}
+
+.footer_copy {
+    font-family: 'Cardo';
+    font-weight: bold;
+}

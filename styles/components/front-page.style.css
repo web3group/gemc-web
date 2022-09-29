@@ -1,0 +1,184 @@
+.section_one {
+    background-color: #d8a44e;
+    height: 858px;
+}
+
+.s1_title {
+    font-family: "Cardo";
+    font-size: 72px;
+}
+
+.s1_body_1 {
+    font-family: "Cardo";
+}
+
+.s1_body_2 {
+    font-family: "Cardo";
+    font-size: 24px;
+}
+
+.section_two {
+    height: 812px;
+    position: relative;
+}
+
+.s2_text {
+    font-size: 56px;
+    font-family: "Cardo";
+}
+
+.s2_openSea {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 140px;
+    top: 650px;
+    background: #005baa;
+}
+
+.s2_openSea_text {
+    font-family: "Roboto";
+}
+
+.section_three {
+    height: 1400px;
+    background-color: #e5e5e5;
+}
+
+.s3_left_title {
+    font-size: 47px;
+    font-family: "Cardo";
+    font-weight: normal;
+}
+
+.s3_left_content {
+    font-size: 25px;
+    font-family: "Cardo";
+    font-family: normal;
+}
+
+.section_three {}
+
+.s4_title {
+    font-family: "Cardo";
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.s4_sub_title {
+    font-family: "Cardo";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.s4_content {
+    line-height: 37px;
+    font-size: 25px;
+    font-family: "Cardo" !important;
+    font-family: normal;
+    line-height: 41px !important;
+}
+
+.section_five {
+    height: 787px;
+    background-color: #d8a44e;
+}
+
+.s5_title {
+    font-family: "Cardo";
+    font-size: 48px;
+}
+
+.s5_content {
+    line-height: 37px;
+    font-family: "Cardo";
+    font-size: 25px;
+}
+
+.s5_right {
+    background-color: white;
+    width: 406px;
+    height: 604px;
+}
+
+.s5_right_number,
+.s5_right_text {
+    line-height: 66px;
+    text-transform: uppercase;
+    font-family: "Cardo";
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.s5_right_number {
+    font-weight: bold;
+}
+
+.section_six {
+    height: 700px;
+}
+
+.s6_left_title {
+    font-family: "Cardo";
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.s6_sub_title,
+.s6_content {
+    font-family: "Cardo" !important;
+    font-size: 25px;
+    font-family: normal;
+}
+
+.s6_sub_title {
+    font-weight: bold;
+}
+
+.section_seven {
+    height: 1189px;
+    background-color: #84bfcc;
+}
+
+.s7_title {
+    font-family: "Cardo";
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.s7_ms_title {
+    font-size: 25px;
+    font-family: "Cardo";
+    font-weight: bold;
+}
+
+.s7_ms_content {
+    font-size: 14px;
+    font-family: "Cardo";
+    font-weight: normal;
+}
+
+.s7_ms_center {
+    height: 700px;
+}
+
+.section_eight {
+    height: 1484px;
+    background-color: #e8d424;
+}
+
+.s8_title {
+    font-family: "Cardo";
+    font-weight: normal;
+    font-size: 48px;
+}
+
+.s8_content {
+    font-family: "Cardo";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.s8_content_1 {
+    line-height: 60px;
+}
