@@ -11,7 +11,7 @@ const Home = () => {
   const router = useRouter();
 
   useEffect(() => {
-    router.push("/about");
+    router.push("/front-page");
   }, []);
 
   return <>Hello world</>;
