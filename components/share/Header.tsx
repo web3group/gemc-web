@@ -5,7 +5,7 @@ export default function Header() {
     <div className="h-20">
       <nav className="bg-white border-gray-200 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div className="flex flex-wrap justify-space-between items-center ml-6 mr-6">
-          <a href="" className="flex items-center">
+          <a href="/" className="flex items-center">
             <span className="nav-title self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               GEMC
             </span>
