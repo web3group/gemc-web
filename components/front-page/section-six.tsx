@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function SectionSix() {
   return (
@@ -24,8 +24,8 @@ export default function SectionSix() {
           </div>
           <p className="s6_content">
             The royalties club is used to buy NFT art from new upcoming artist,
-            and will be spend monthly, <br/> NFT holders can suggest and vote in
-            Discord for which projects to support.
+            and will be spend monthly, <br /> NFT holders can suggest and vote
+            in Discord for which projects to support.
           </p>
         </div>
       </div>

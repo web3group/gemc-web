@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function SectionOne() {
   return (
@@ -25,7 +25,7 @@ export default function SectionOne() {
             promote art on the blockchain.
           </p>
         </div>
-        <div className="flex justify-center align-center mr-4 my-12">
+        <div className="s1_btn flex justify-center align-center mr-4 my-12">
           <button
             type="button"
             className="about_first_btn h-10 px-4 py-1 flex items-center text-white text-lg font-bold bg-black hover:bg-black-700 focus:outline-none focus:ring-4 rounded-full uppercase"
@@ -43,7 +43,13 @@ export default function SectionOne() {
         </div>
       </div>
       <div className="section_one_right pt-6">
-        <Image src="/images/front_s1.svg" height={544} width={544} />
+        <Image
+          loading="eager"
+          alt="Loading..."
+          src="/images/front_s1.svg"
+          height={544}
+          width={544}
+        />
       </div>
     </div>
   );

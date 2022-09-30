@@ -36,6 +36,10 @@
     font-weight: normal;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 @import "./header.style.css";
 @import "./footer.style.css";
 @import "./components/about.style.css";
@@ -43,3 +47,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@media only screen and (max-width: 380px) {
+    .section_one {
+        height: 900px !important
+    }
+    .about_first-section {
+        height: 900px !important;
+    }
+    .about_second_section {
+        height: 1800px !important;
+    }
+    .about_third_section {
+        height: 800px !important;
+    }
+}

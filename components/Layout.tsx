@@ -8,16 +8,10 @@ const { publicRuntimeConfig } = getConfig();
 
 type LayoutProps = {
   title?: string;
-  description?: string;
-  date?: string;
-  socialPreview?: string;
   children: React.ReactNode;
 };
 
 const Layout = ({ children, ...customMeta }: LayoutProps) => {
-  const router = useRouter();
-  const { asPath } = router;
-
   const { title } = publicRuntimeConfig.site;
 
   const meta = {

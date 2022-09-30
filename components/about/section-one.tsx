@@ -8,7 +8,7 @@ export default function SectionOne() {
         who are we
       </p>
 
-      <div className="ml-44 mr-44 mt-14">
+      <div className="about_body ml-44 mr-44 mt-14">
         <p className="about_content text-center text-xl">
           From 4 friends sharing the same vision and coming together to launch
           WoW, to now a team of 9 united in our mission to create a beautiful,

@@ -8,6 +8,12 @@ export default function Footer() {
         <span className="footer_title text-white">GEMC</span>
       </div>
 
+      <div className="md:hidden">
+        <span>
+          <span className="footer_title text-white hide_title">GEMC</span>
+        </span>
+      </div>
+
       <div className="logo flex items-center mx-60">
         <div className="mx-2">
           <a href="">

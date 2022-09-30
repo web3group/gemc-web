@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function SectionThree() {
   return (
@@ -25,7 +25,13 @@ export default function SectionThree() {
         </p>
       </div>
       <div className="s3_right">
-        <Image src="/images/front_s3.svg" height={555} width={526} />
+        <Image
+          loading="eager"
+          alt="Loading..."
+          src="/images/front_s3.svg"
+          height={555}
+          width={526}
+        />
       </div>
     </div>
   );

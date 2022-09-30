@@ -16,3 +16,18 @@
     font-family: "Roboto";
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    .nav_sub {
+        display: block !important;
+    }
+    .nav-item {
+        font-size: 10px !important;
+    }
+    .nav_container {
+        justify-content: space-between !important;
+    }
+    .header_container {
+        height: 100px !important;
+    }
+}

@@ -4,13 +4,13 @@ import React from "react";
 export default function SectionTwo() {
   return (
     <div className="section_two flex flex-col items-center justify-center">
-      <div>
-        <Image src="/images/front_s2.svg" height={334} width={334} />
+      <div className="w-2/5">
+        <Image className="s2_img" alt="Loading..." src="/images/front_s2.svg" height={334} width={334} />
       </div>
       <div className="px-60">
         <p className="s2_text">
           Memberships connecting creative minds and NFT. <br /> A space for
-          curious, kind people to elevate and colect
+          curious, kind people to elevate and collect
         </p>
       </div>
 

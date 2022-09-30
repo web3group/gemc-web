@@ -182,3 +182,85 @@
 .s8_content_1 {
     line-height: 60px;
 }
+
+@media only screen and (max-width: 600px) {
+    .section_three {
+        display: block !important;
+        padding: 20px !important;
+    }
+    .section_five {
+        display: block !important;
+        padding: 20px !important;
+        height: 1200px;
+    }
+    .section_six {
+        height: 900px !important;
+    }
+    .section_seven {
+        height: 1300px !important;
+        padding: 0px !important;
+        padding-top: 20px !important;
+    }
+    .section_eight {
+        height: 1850px !important;
+    }
+    .s5_left {
+        width: 100% !important;
+    }
+    .s3_left {
+        width: 100% !important;
+    }
+    .s5_right {
+        width: 100%;
+    }
+    .s1_title,
+    .s3_left_title,
+    .s6_left_title,
+    .s7_title,
+    .s8_title {
+        font-size: 35px;
+    }
+    .s1_body_1,
+    .s1_body_2,
+    .s3_left_content,
+    .s5_right_number,
+    .s5_right_text {
+        font-size: 15px !important;
+    }
+    .s2_text,
+    .s6_sub_title,
+    .s6_content,
+    .s7_ms_title,
+    .s8_content,
+    .s8_content_1 {
+        font-size: 20px;
+    }
+    .s8_content {
+        word-wrap: break-word;
+    }
+    .s1_btn {
+        margin-top: 15px !important;
+        margin-left: 15px !important;
+    }
+    .about_first_btn {
+        margin: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .about_first_text {
+        font-size: 10px !important;
+    }
+    .s2_img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .s7_milestones {
+        margin-top: 10px !important;
+    }
+    .s7_ms_center {
+        width: 1rem !important;
+        height: 1150px !important;
+    }
+    .hide_title {
+        margin-left: 600px;
+    }
+}

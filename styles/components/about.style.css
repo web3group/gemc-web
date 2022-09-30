@@ -49,4 +49,17 @@
     font-size: 42px;
 }
 
-.about_third_content {}
+@media only screen and (max-width: 600px) {
+    .about_title,
+    .about_second_title {
+        font-size: 35px !important;
+    }
+    .about_content,
+    .about_second_sub_title,
+    .about_second_content {
+        font-size: 20px !important;
+    }
+    .about_body {
+        margin: 20px !important;
+    }
+}
