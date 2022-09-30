@@ -43,10 +43,11 @@ export default function SectionOne() {
         </div>
       </div>
       <div className="section_one_right pt-6">
-        <Image
+        <img
           loading="eager"
           alt="Loading..."
-          src="/images/front_s1.svg"
+          // src="/images/front_s1.svg"
+          src="/images/front_s1.png"
           height={544}
           width={544}
         />

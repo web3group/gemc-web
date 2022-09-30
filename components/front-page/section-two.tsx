@@ -5,7 +5,7 @@ export default function SectionTwo() {
   return (
     <div className="section_two flex flex-col items-center justify-center">
       <div className="w-2/5">
-        <Image className="s2_img" alt="Loading..." src="/images/front_s2.svg" height={334} width={334} />
+        <img className="s2_img" alt="Loading..." src="/images/front_s2.png" height={334} width={334} />
       </div>
       <div className="px-60">
         <p className="s2_text">

@@ -25,10 +25,10 @@ export default function SectionThree() {
         </p>
       </div>
       <div className="s3_right">
-        <Image
+        <img
           loading="eager"
           alt="Loading..."
-          src="/images/front_s3.svg"
+          src="/images/front_s3.png"
           height={555}
           width={526}
         />
