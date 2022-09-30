@@ -4,7 +4,7 @@ import React from "react";
 export default function SectionTwo() {
   return (
     <div className="section_two flex flex-col items-center justify-center">
-      <div className="w-2/5">
+      <div className="mb-4">
         <img className="s2_img" alt="Loading..." src="/images/front_s2.png" height={334} width={334} />
       </div>
       <div className="px-60">

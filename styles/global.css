@@ -49,13 +49,28 @@ body {
 @tailwind utilities;
 @media only screen and (max-width: 380px) {
     .section_one {
-        height: 900px !important
+        height: 900px !important;
+    }
+    .about_first-section {
+        height: 1000px !important;
+    }
+    .about_second_section {
+        height: 1800px !important;
+    }
+    .about_third_section {
+        height: 800px !important;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .section_one {
+        height: 900px !important;
     }
     .about_first-section {
         height: 900px !important;
     }
     .about_second_section {
-        height: 1800px !important;
+        height: 1600px !important;
     }
     .about_third_section {
         height: 800px !important;

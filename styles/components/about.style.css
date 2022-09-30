@@ -62,4 +62,13 @@
     .about_body {
         margin: 20px !important;
     }
+    .about_first_section {
+        height: 1600px !important
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .about_first_section {
+        height: 1600px !important
+    }
 }
