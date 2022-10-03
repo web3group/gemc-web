@@ -7,7 +7,7 @@ export default function SectionTwo() {
       <div className="mb-4">
         <img className="s2_img" alt="Loading..." src="/images/front_s2.png" height={334} width={334} />
       </div>
-      <div className="px-60">
+      <div className="px-50">
         <p className="s2_text">
           Memberships connecting creative minds and NFT. <br /> A space for
           curious, kind people to elevate and collect

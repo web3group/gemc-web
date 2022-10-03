@@ -28,16 +28,16 @@ export default function SectionOne() {
         <div className="s1_btn flex justify-center align-center mr-4 my-12">
           <button
             type="button"
-            className="about_first_btn h-10 px-4 py-1 flex items-center text-white text-lg font-bold bg-black hover:bg-black-700 focus:outline-none focus:ring-4 rounded-full uppercase"
+            className="about_first_btn h-15 px-4 py-1 flex items-center text-white text-lg font-bold bg-black hover:bg-black-700 focus:outline-none focus:ring-4 rounded-full uppercase"
           >
-            <Image src="/images/about_logomark.svg" height={33} width={33} />
+            <Image src="/images/about_logomark.svg" height={30} width={30} />
             <span className="about_first_text pl-1 text-sm">mint soon</span>
           </button>
           <button
             type="button"
-            className="about_first_btn h-10 ml-10 px-4 py-1 flex items-center text-white text-lg font-bold bg-black hover:bg-black-700 focus:outline-none focus:ring-4 rounded-full uppercase"
+            className="about_first_btn h-15 ml-10 px-4 py-1 flex items-center text-white text-lg font-bold bg-black hover:bg-black-700 focus:outline-none focus:ring-4 rounded-full uppercase"
           >
-            <Image src="/images/about_logomark.svg" height={33} width={33} />
+            <Image src="/images/about_logomark.svg" height={30} width={30} />
             <span className="about_first_text pl-1 text-sm">join discord</span>
           </button>
         </div>
